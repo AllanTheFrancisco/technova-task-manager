@@ -1,0 +1,17 @@
+def criar_tarefa(tarefa):
+    print(f"Tarefa criada: {tarefa}")
+
+def listar_tarefas():
+    print("Listando todas as tarefas...")
+
+def atualizar_tarefa(id_tarefa, nova_descricao):
+    print(f"Tarefa {id_tarefa} atualizada para: {nova_descricao}")
+
+def deletar_tarefa(id_tarefa):
+    print(f"Tarefa {id_tarefa} deletada com sucesso.")
+
+if __name__ == "__main__":
+    criar_tarefa("Configurar o repositório Git")
+    listar_tarefas()
+    atualizar_tarefa(1, "Configurar as branches e PR")
+    deletar_tarefa(1)
